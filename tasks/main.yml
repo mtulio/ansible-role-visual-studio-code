@@ -1,6 +1,9 @@
 ---
 - import_tasks: install.yml
+  when: visual_studio_code_flag_install
 
 - import_tasks: install-extensions.yml
+  when: visual_studio_code_flag_extensions
 
 - import_tasks: write-settings.yml
+  when: visual_studio_code_flag_settings

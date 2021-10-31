@@ -16,3 +16,8 @@ visual_studio_code_mirror: 'https://packages.microsoft.com'
 
 # Users to install extensions for and/or write settings.json
 users: []
+
+# flags
+visual_studio_code_flag_install: true
+visual_studio_code_flag_extensions: true
+visual_studio_code_flag_settings: true
